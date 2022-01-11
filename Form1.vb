@@ -24,6 +24,9 @@ Public Class Form1
         DataGridView1.Columns(1).HeaderText = "Nama Jenis"
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Call Koneksi()
+        Call TampilJenis()
+        Call Kosong()
+        Call AturGrid()
     End Sub
 End Class
